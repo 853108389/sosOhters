@@ -1,0 +1,12 @@
+∞¢¿Ô‘∆≈‰÷√:
+mysql   mysql -u root -p123456
+∑˛ŒÒ∆˜  47.106.9.82 root gxy123456.
+
+
+#set java environment
+JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+JRE_HOME=$JAVA_HOME/jre
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+
+systemctl start mysqld
